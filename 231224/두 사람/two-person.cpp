@@ -10,7 +10,7 @@ int main() {
     if((a >= 19) && (c == 'M')) {
         cout << 1;
     }
-    else if((b >= 19) && (c == 'M')) {
+    else if((b >= 19) && (d == 'M')) {
         cout << 1;
     }
     else {
