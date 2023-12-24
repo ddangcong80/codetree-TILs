@@ -3,7 +3,11 @@ using namespace std;
 
 int main() {
     int a, b;
+    double res;
     cin >> a >> b;
-    cout << a + b << " " << ((double)(a + b)) / 2;
+    res = ((double)(a + b)) / 2;
+    cout << fixed;
+    cout.precision(1);
+    cout << a + b << " " << res;
     return 0;
 }
