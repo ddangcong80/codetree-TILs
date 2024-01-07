@@ -19,7 +19,7 @@ int main() {
         for(int j = 0; j < i + 1; j++) {
             cout << " ";
         }
-        for(int k = 0; k < n - (2 * i); k++) {
+        for(int k = 0; k < (2 * (n - 1)) - (2 * i + 1); k++) {
             cout << "*";
         }
         cout << endl;
